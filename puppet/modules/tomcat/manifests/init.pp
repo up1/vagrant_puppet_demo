@@ -2,7 +2,7 @@ class tomcat {
 
   package { "tomcat6":
     ensure => installed,
-    require => Package['openjdk-6-jdk'],
+    require => Package['openjdk-7-jdk'],
   }
   
   package { "tomcat6-admin":
