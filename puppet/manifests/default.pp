@@ -7,3 +7,4 @@ include bootstrap
 include redis
 include java
 include tomcat
+include rabbitmq
